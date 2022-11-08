@@ -9,15 +9,13 @@ changeLanguage("id");
 ---
 
 <BaseLayout>
-  <div>
-    <TextHeader>{t("validator.header")}</TextHeader>
-    <FormValidator
-      client:load
-      placeholderText={t("validator.placeholder")}
-      buttonText={t("validator.button")}
-    />
-    <Link href={t("validator.back_url")} openInNewWindow={false}
-      >{t("validator.back")}</Link
-    >
-  </div>
+  <TextHeader>{t("validator.header")}</TextHeader>
+  <FormValidator
+    client:load
+    placeholderText={t("validator.placeholder")}
+    buttonText={t("validator.button")}
+  />
+  <Link href={t("validator.back_url")} openInNewWindow={false}
+    >{t("validator.back")}</Link
+  >
 </BaseLayout>
