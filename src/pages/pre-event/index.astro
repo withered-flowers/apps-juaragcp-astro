@@ -1,0 +1,36 @@
+---
+import { changeLanguage, t } from "i18next";
+import { Trans } from "astro-i18next/components";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CountdownPreEvent from "../../components/countdowns/CountdownPreEvent.svelte";
+import Link from "../../components/Link.astro";
+import TextHeader from "../../components/TextHeader.astro";
+import TextLine from "../../components/TextLine.astro";
+import TextLineSmall from "../../components/TextLineSmall.astro";
+
+changeLanguage("id");
+---
+
+<BaseLayout>
+  <TextHeader>{t("preEvent.header")}</TextHeader>
+
+  <CountdownPreEvent
+    client:visible
+    dayVal={t("countdown.day")}
+    hourVal={t("countdown.hour")}
+    minuteVal={t("countdown.minute")}
+    secondVal={t("countdown.second")}
+  />
+
+  <TextLineSmall>
+    {t("preEvent.notif")}
+  </TextLineSmall>
+
+  <TextLine>
+    <Trans i18nKey="preEvent.content">
+      Kunjungi <Link href={t("preEvent.content_url")} openInNewWindow={true}
+        >JuaraGCP</Link
+      > untuk mempelajari event JuaraGCP Seri Ke-8 lebih lanjut
+    </Trans>
+  </TextLine>
+</BaseLayout>

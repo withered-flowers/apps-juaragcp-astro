@@ -1,0 +1,22 @@
+---
+import i18next, { t } from "i18next";
+import { LanguageSelector } from "astro-i18next/components";
+---
+
+<html lang={i18next.language}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{t("site.title")}</title>
+  </head>
+  <body>
+    <main
+      class="bg-[#f1f1f1] container p-4 min-h-screen min-w-full flex flex-col items-center justify-center text-center"
+    >
+      <LanguageSelector showFlag={true} class="my-select-class" />
+      <slot />
+    </main>
+  </body>
+</html>

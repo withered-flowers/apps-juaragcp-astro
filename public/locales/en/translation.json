@@ -1,0 +1,32 @@
+{
+  "site": {
+    "title": "JuaraGCP Season 8"
+  },
+  "countdown": {
+    "day": "day",
+    "hour": "hour",
+    "minute": "minute",
+    "second": "second"
+  },
+  "preEvent": {
+    "header": "JuaraGCP Season 8 will be started in",
+    "notif": "Based on Google Cloud Skills Boost Server's Timezone (00.00 AM)",
+    "content": "Visit <0>JuaraGCP</0> to learn more about JuaraGCP Season 8.",
+    "content_url": "https://events.withgoogle.com/juaragcp8/"
+  },
+  "event": {
+    "header": "JuaraGCP Season 8 will be ended in",
+    "notif": "Based on Indonesian's Server UTC+7 (WIB)",
+    "visit": "Visit <0>JuaraGCP</0> to learn more about JuaraGCP Season 8.",
+    "visit_url": "https://events.withgoogle.com/juaragcp8/",
+    "validator": "Wanna know which Tier you are right now? Visit <0>Validator</0> to check it.",
+    "validator_url": "validators"
+  },
+  "validator": {
+    "header": "Validator CloudSkillBoost Profile",
+    "placeholder": "Insert Your Public Profile URL here",
+    "button": "Check Profile",
+    "back": "Back to home page",
+    "back_url": "/en"
+  }
+}

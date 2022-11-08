@@ -1,0 +1,23 @@
+---
+import { changeLanguage, t } from "i18next";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Link from "../../../components/Link.astro";
+import TextHeader from "../../../components/TextHeader.astro";
+import FormValidator from "../../../components/validators/FormValidator.svelte";
+
+changeLanguage("en");
+---
+
+<BaseLayout>
+  <div>
+    <TextHeader>{t("validator.header")}</TextHeader>
+    <FormValidator
+      client:load
+      placeholderText={t("validator.placeholder")}
+      buttonText={t("validator.button")}
+    />
+    <Link href={t("validator.back_url")} openInNewWindow={false}
+      >{t("validator.back")}</Link
+    >
+  </div>
+</BaseLayout>

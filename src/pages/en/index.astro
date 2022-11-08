@@ -1,0 +1,39 @@
+---
+import { changeLanguage, t } from "i18next";
+import { Trans } from "astro-i18next/components";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CountdownEvent from "../../components/countdowns/CountdownEvent.svelte";
+import Link from "../../components/Link.astro";
+import TextHeader from "../../components/TextHeader.astro";
+import TextLine from "../../components/TextLine.astro";
+import TextLineSmall from "../../components/TextLineSmall.astro";
+
+changeLanguage("en");
+---
+
+<BaseLayout>
+  <TextHeader>{t("event.header")}</TextHeader>
+
+  <CountdownEvent client:visible />
+
+  <TextLineSmall>
+    {t("event.notif")}
+  </TextLineSmall>
+
+  <TextLine>
+    <Trans i18nKey={"event.visit"}>
+      Kunjungi <Link href={t("event.visit_url")} openInNewWindow={true}
+        >JuaraGCP</Link
+      > untuk mempelajari event JuaraGCP Seri Ke-8 lebih lanjut
+    </Trans>
+  </TextLine>
+
+  <TextLine>
+    <Trans i18nKey={"event.validator"}>
+      Ingin mengetahui sudah sampai Tier berapa? Kunjungi <Link
+        href={t("event.validator_url")}
+        openInNewWindow={false}>Validator</Link
+      > untuk mengetahuinya.
+    </Trans>
+  </TextLine>
+</BaseLayout>

@@ -1,0 +1,32 @@
+{
+  "site": {
+    "title": "JuaraGCP Seri Ke-8"
+  },
+  "countdown": {
+    "day": "hari",
+    "hour": "jam",
+    "minute": "menit",
+    "second": "detik"
+  },
+  "preEvent": {
+    "header": "JuaraGCP Seri Ke-8 dimulai dalam",
+    "notif": "Dihitung berdasarkan waktu server Google Cloud Skills Boost Pukul 00.00",
+    "content": "Kunjungi <0>JuaraGCP</0> untuk mempelajari event JuaraGCP Seri Ke-8 lebih lanjut.",
+    "content_url": "https://events.withgoogle.com/juaragcp8/"
+  },
+  "event": {
+    "header": "JuaraGCP Seri Ke-8 selesai pada",
+    "notif": "Dihitung berdasarkan waktu server Indonesia UTC+7 (WIB)",
+    "visit": "Kunjungi <0>JuaraGCP</0> untuk mempelajari event JuaraGCP Seri Ke-8 lebih lanjut.",
+    "visit_url": "https://events.withgoogle.com/juaragcp8/",
+    "validator": "Ingin mengetahui sudah sampai Tier berapa? Kunjungi <0>Validator</0> untuk mengetahuinya.",
+    "validator_url": "validators"
+  },
+  "validator": {
+    "header": "Pengecek Profil CloudSkillBoost",
+    "placeholder": "Masukkan URL Publik Profil Anda disini",
+    "button": "Cek Profil",
+    "back": "Kembali ke halaman utama",
+    "back_url": "/"
+  }
+}
