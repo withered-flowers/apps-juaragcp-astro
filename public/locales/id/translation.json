@@ -20,7 +20,9 @@
     "visit": "Kunjungi <0>JuaraGCP</0> untuk mempelajari event JuaraGCP Seri Ke-8 lebih lanjut.",
     "visit_url": "https://events.withgoogle.com/juaragcp8/",
     "validator": "Ingin mengetahui sudah sampai Tier berapa? Kunjungi <0>Validator</0> untuk mengetahuinya.",
-    "validator_url": "validators"
+    "validator_url": "validators",
+    "validator_source": "Takut dengan kode yang ada di sini? Kunjungi <0>Github</0> untuk membaca sumber kodenya",
+    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro"
   },
   "validator": {
     "header": "Pengecek Profil CloudSkillBoost",

@@ -20,7 +20,9 @@
     "visit": "Visit <0>JuaraGCP</0> to learn more about JuaraGCP Season 8.",
     "visit_url": "https://events.withgoogle.com/juaragcp8/",
     "validator": "Wanna know which Tier you are right now? Visit <0>Validator</0> to check it.",
-    "validator_url": "validators"
+    "validator_url": "validators",
+    "validator_source": "Worried about your privacy on this web? Visit <0>Github</0> to read the source code",
+    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro"
   },
   "validator": {
     "header": "Validator CloudSkillBoost Profile",
