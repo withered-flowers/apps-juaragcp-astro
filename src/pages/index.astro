@@ -14,7 +14,13 @@ changeLanguage("id");
 <BaseLayout>
   <TextHeader>{t("event.header")}</TextHeader>
 
-  <CountdownEvent client:visible />
+  <CountdownEvent
+    client:load
+    dayVal={t("countdown.day")}
+    hourVal={t("countdown.hour")}
+    minuteVal={t("countdown.minute")}
+    secondVal={t("countdown.second")}
+  />
 
   <TextLineSmall>
     {t("event.notif")}
