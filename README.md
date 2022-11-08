@@ -1,45 +1,28 @@
-# Astro Starter Kit: Minimal
+Countdown JuaraGCP - Astro
 
-```
-npm create astro@latest -- --template minimal
-```
+Disclaimer:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+    Kode yang dibuat di sini masih minimal dan masih bisa di-refactor lagi 😉
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Aplikasi ini dibuat untuk menginformasikan countdown event JuaraGCP dimulai s.d. event JuaraGCP ini selesai.
 
-## 🚀 Project Structure
+Aplikasi ini bersifat Web Apps yang akan dideploy pada Vercel, salah satu cloud hosting untuk membuat aplikasi, dengan menggunakan beberapa functions (vercel functions)
 
-Inside of your Astro project, you'll see the following folders and files:
+Tech stack yang digunakan untuk membuat aplikasi ini adalah:
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+    Astro sebagai Meta-Framework
+    Svelte sebagai Renderer tambahan (Framework)
+    Vite sebagai build tools
+    Tailwind sebagai CSS Utility
+    Day.js untuk pustaka pemanipulasi tanggal
+    Vercel sebagai tempat hosting aplikasi ini dan functionsnya
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Untuk menjalankan aplikasi ini, dapat dilakukan dengan cara:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+  1. Clone repository ini dan Repository BackEnd (functions) yang ada di [sini](https://github.com/withered-flowers/apps-validate-qwiklabs-juaragcp)
+  1. Deploy Functions yang ada di BE tersebut ke Vercel / hosting sejenisnya (Config yang ada di repo tersebut sudah disesuaikan untuk deploy di vercel)
+  1. Deploy Repository ini, dan sebelum deploy set environment variabel dengan nama `PUBLIC_BE_URL` yang mengarah ke domain backend functions tersebut
+  1. Selesai.
+    
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Selamat membaca
