@@ -22,7 +22,11 @@
     "validator": "Ingin mengetahui sudah sampai Tier berapa? Kunjungi <0>Validator</0> untuk mengetahuinya.",
     "validator_url": "validators",
     "validator_source": "Takut dengan kode yang ada di sini? Kunjungi <0>Github</0> untuk membaca sumber kodenya",
-    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro"
+    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro",
+    "discord": "Ingin berbincang dengan teman seperjuangan? Kunjungi <0>Discord</0> untuk berkomunikasi",
+    "discord_url": "",
+    "sheet": "Ingin memilih apa saja yang dikerjakan? Gunakan <0>Sheet</0> ini untuk membantumu.",
+    "sheet_url": "https://firebasestorage.googleapis.com/v0/b/dev-that-can-be-crashed.appspot.com/o/juaragcp%2FJuaraGCPSeason8Checklist.xls?alt=media&token=afccb525-1d74-4a16-b0a5-6352acc255a2"
   },
   "validator": {
     "header": "Pengecek Profil CloudSkillBoost",

@@ -22,7 +22,11 @@
     "validator": "Wanna know which Tier you are right now? Visit <0>Validator</0> to check it.",
     "validator_url": "validators",
     "validator_source": "Worried about your privacy on this web? Visit <0>Github</0> to read the source code",
-    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro"
+    "validator_source_url": "https://github.com/withered-flowers/apps-juaragcp-astro",
+    "discord": "Wanna talk with your comrade-in-arms? Visit <0>Discord</0> for having discussion (mostly in Bahasa Indonesia)",
+    "discord_url": "",
+    "sheet": "Wanna min maxing your work? Use this <0>Sheet</0> to help you.",
+    "sheet_url": "https://firebasestorage.googleapis.com/v0/b/dev-that-can-be-crashed.appspot.com/o/juaragcp%2FJuaraGCPSeason8Checklist.xls?alt=media&token=afccb525-1d74-4a16-b0a5-6352acc255a2" 
   },
   "validator": {
     "header": "Validator CloudSkillBoost Profile",
